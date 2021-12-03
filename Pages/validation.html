@@ -1,0 +1,31 @@
+//name validation
+<script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}
+}  
+</script>  
+
+
+//email validation 
+<script type = "text/javascript">
+   <!--
+      function validateEmail() {
+         var emailID = document.myForm.email.value;
+         atpos = emailID.indexOf("@");
+         dotpos = emailID.lastIndexOf(".");
+         
+         if (atpos < 1 || ( dotpos - atpos < 2 )) {
+            alert("Please enter correct email ID")
+            document.myForm.email.focus() ;
+            return false;
+         }
+         return( true );
+      }
+   //-->
+</script>
