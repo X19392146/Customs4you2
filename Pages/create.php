@@ -1,19 +1,20 @@
 <?php
 
-session_start();
-if(!isset($_SESSION['email'])){
-	header('location:login.php');
-}
+    include "logic.php";
 
 ?>
 
 
-<html >
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Welcome</title>
+    <title>Forum</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-	<link href="../CSS/welcome.css" rel="stylesheet" type="text/css" />
-	
+
+    	<link rel="stylesheet" href="../CSS/writing.css" >
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -38,13 +39,29 @@ if(!isset($_SESSION['email'])){
 				<ul class="nav navbar-nav navbar-right">
 				<li><a href="../Pages/About.php">&nbsp; About Us &nbsp; </a></li>
 				<li><a href="../pages/login.php">&nbsp; Login &nbsp;</a></li>
-				<li><a href="../pages/Calculator.php">&nbsp; Calculate  &nbsp;</a></li>
+				<li><a href="../pages/calculator.php">&nbsp; Calculate  &nbsp;</a></li>
 				<li><a href="../pages/contact.php">&nbsp; Contact Us &nbsp;</a></li>
 				<li><a href="../pages/privatepolicy.php">&nbsp; Private Policy &nbsp;</a></li>
 				</ul>
 				</div>	
 			</div>
 		</nav>	
+	<H1 style= "color:#96c5f7"; "text-align:center;">Forum</h1>
+
+   <div class="container mt-5">
+        <form method="POST">
+            <input type="text" placeholder="Blog Title" class="form-control my-3 bg-#96c5f7 text-dark text-center" name="title">
+            <textarea name="content" class="form-control my-3 bg-#96c5f7 text-white" cols="30" rows="10"></textarea>
+            <button class="btn btn-96C5F7" name="new_post">Add Post</button>
+        </form>
+   </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
 <br/>
 <br/>
 <br/>
@@ -52,32 +69,8 @@ if(!isset($_SESSION['email'])){
 <br/>
 <br/>
 <br/>
-	
-	<h2>Welcome <?php echo $_SESSION['email']; ?></h2>
-	
-	
-	<div class="container">
-	<div class="center">
-	</div>
-	</div>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	
-	<div class="container">
-	
-	<div class="center">
-	<a href="../pages/logout.php"><button type="button" class="btn btn-second">Log Out</button></a>
-	<a href="../Pages/writing.php"><button type="button" class="btn btn-second">Forum</button></a>
-	</div>
-	</div>
-	
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
+<br/>
+<br/>
 <!-- Footer -->
 
 <div class = "footer">
@@ -132,6 +125,6 @@ if(!isset($_SESSION['email'])){
 
 
 
-</body>
 
+</body>
 </html>
