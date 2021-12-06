@@ -51,7 +51,7 @@
 		<h2> Register Here </h2>
 		<p>Please fill in this form to register.</p>
 		<hr>
-		<form action="../registration.php" method="post">
+		<form action="registration.php" method="post">
 		<div class="form-group">
 			<label>Email</label>
 			<input type="text" placeholder="Enter Email" name="email" class="form-control" required>

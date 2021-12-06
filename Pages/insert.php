@@ -8,11 +8,11 @@
 <body>
     <center>
         <?php
-        // servername => localhost
-        // username => root
-        // password => empty
-        // database name => 
-        $conn = mysqli_connect("localhost", "root", "", "customs4you"); //customscalculator
+        // servername => eu-cdbr-west-01.cleardb.com
+        // username => b8f74754068922
+        // password => 81e51a35
+        // database name => heroku_a280f85f3fd531e
+        $conn = mysqli_connect("eu-cdbr-west-01.cleardb.com", "b8f74754068922", "81e51a35", "heroku_a280f85f3fd531e"); //customscalculator
           
         // Check connection
         if($conn === false){

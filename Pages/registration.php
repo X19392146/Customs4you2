@@ -3,9 +3,9 @@
 session_start();
 
 
-$con = mysqli_connect('localhost', 'root', '');
+$con = mysqli_connect('eu-cdbr-west-01.cleardb.com', 'b8f74754068922', '81e51a35');
 
-mysqli_select_db($con, 'registration');
+mysqli_select_db($con, 'heroku_a280f85f3fd531e');
 
 $name = $_POST['email'];
 $pass = $_POST['password'];

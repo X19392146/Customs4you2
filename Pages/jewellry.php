@@ -40,11 +40,12 @@
 		</nav>	
 		
 		<center>
+		
 <?php
-$host    = "localhost";
-$user    = "root";
-$pass    = "";
-$db_name = "customs4you";
+$host    = "eu-cdbr-west-01.cleardb.com";
+$user    = "b8f74754068922";
+$pass    = "81e51a35";
+$db_name = "heroku_a280f85f3fd531e";
 
 //create connection
 $connection = mysqli_connect($host, $user, $pass, $db_name);
@@ -146,8 +147,6 @@ echo "</table>";
 </div>
 
 
-</body>
-</html>
 
 
 
