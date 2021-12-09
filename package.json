@@ -1,0 +1,14 @@
+{
+	"name": "customs4you1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.php"
+	"sripts": {
+		"test": "echo \"Error no text specified\" && exit 1"
+	},
+	"author": "",
+	"licence": "ISC"
+	"dependancies": {
+		"express": "^4.15.2"
+	}
+}
