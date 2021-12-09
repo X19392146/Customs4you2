@@ -32,11 +32,11 @@
 				</div>
 				<div class="collapse navbar-collapse" id="menuicon">
 				<ul class="nav navbar-nav navbar-right" >
-				<li><a href="About.php">&nbsp; About Us &nbsp; </a></li>
-				<li><a href="login.php">&nbsp; Login &nbsp;</a></li>
-				<li><a href="calculator.php">&nbsp; Calculate  &nbsp;</a></li>
-				<li><a href="contact.php">&nbsp; Contact Us &nbsp;</a></li>
-				<li><a href="privatepolicy.php">&nbsp; Private Policy &nbsp;</a></li>
+				<li><a href="Pages/about.php">&nbsp; About Us &nbsp; </a></li>
+				<li><a href="Pages/login.php">&nbsp; Login &nbsp;</a></li>
+				<li><a href="Pages/calculator.php">&nbsp; Calculate  &nbsp;</a></li>
+				<li><a href="Pages/contact.php">&nbsp; Contact Us &nbsp;</a></li>
+				<li><a href="Pages/privatepolicy.php">&nbsp; Private Policy &nbsp;</a></li>
 				</ul>
 				</div>
 				
@@ -124,12 +124,12 @@
 		<h2>Quick Links</h2>
 		<br/>
 		<ul>
-		<a href="Index.php"><li>Home</li></a>
-		<a href="login.php"><li>Login</li></a>
-		<a href="login.php"><li>Signup</li></a>
-		<a href="about.php"><li>About Us</li></a>
-		<a href="privatepolicy.php"><li>T&Cs </li></a>
-		<a href="calculator.php"><li>Customs Information</li></a>
+		<a href="Pages/Index.php"><li>Home</li></a>
+		<a href="Pages/login.php"><li>Login</li></a>
+		<a href="Pages/login.php"><li>Signup</li></a>
+		<a href="Pages/about.php"><li>About Us</li></a>
+		<a href="Pages/privatepolicy.php"><li>T&Cs </li></a>
+		<a href="Pages/calculator.php"><li>Customs Information</li></a>
 		</ul>
 		
 		</div>
